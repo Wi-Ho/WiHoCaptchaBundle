@@ -1,0 +1,35 @@
+{
+    "name": "wiho/captcha-bundle",
+    "type": "captcha-bundle",
+    "description": "Captcha bundle",
+    "keywords": ["symfony2", "captcha", "recaptcha", "google", "bot", "visual", "code", "security", "spam"],
+    "homepage": "https://github.com/WiHo/CaptchaBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florent Morselli"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/translation": "~2.4",
+        "symfony/config": "~2.4",
+        "symfony/http-kernel": "~2.4",
+        "symfony/templating": "~2.4",
+        "symfony/form": "~2.4",
+        "symfony/dependency-injection": "~2.4",
+        "guzzlehttp/guzzle": "~3.8"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "WiHo\\CaptchaBundle\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WiHo\\TestBundle\\": "Tests/TestBundle/"
+        }
+    }
+}
